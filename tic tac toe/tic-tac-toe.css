@@ -47,14 +47,14 @@ body{
 .btn2{
     color:white;
     background-color: black;
-    font-size:3rem;
+    font-size:2.8rem;
     border-radius: 1rem;
     text-transform: capitalize;
     padding:0.4rem;
     border: black inset 0.3rem;
-    margin-left:60.5rem;
-   position: absolute;
-   margin-top:-15rem;
+    margin-left:57.5rem;
+    position: absolute;
+    margin-top:-15rem;
     cursor: pointer;
 }
 .btn2:active{
@@ -76,6 +76,7 @@ body{
     margin-left:30rem;
     color:white;
     text-shadow: 0.1rem 0.1rem 0.1rem black;
+    border:solid 0.1rem black;
 }
 .win{
     display:none
@@ -92,18 +93,16 @@ body{
 
 @media(max-width:998px){
     html{
-        font-size:68%
+        font-size:45%
     }
 }
-
 @media(max-width:798px){
     html{
-        font-size:50%
+        font-size:40%
     }
 }
-
 @media(max-width:598px){
     html{
-        font-size:40%
+        font-size:30%
     }
 }
