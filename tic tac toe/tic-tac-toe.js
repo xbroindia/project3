@@ -60,7 +60,7 @@ function check(){
 function draw() {
     let allFilled = Array.from(boxes).every(box => box.innerText !== "");
     if (allFilled &&!Array.from(boxes).some(box => box.innerText === "")) {
-        win.innerText = "It's a draw!";
+        win.innerText = "game is draw";
         win.style.display = "block";
         p1.style.display = "none";
         p2.style.display = "none";
